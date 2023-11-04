@@ -10,6 +10,11 @@ let s1 = 'Hi';
 let s2 = `Hello World!`;
 console.log(s, s1, s2);
 
+//Iterating using for of
+for(let x of s2){
+    console.log(x);
+}
+
 //Accessing the characters of a string
 console.log(s[2]);
 console.log(s2.charAt(6));
